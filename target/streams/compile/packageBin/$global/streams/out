@@ -1,0 +1,15 @@
+[info] Packaging C:\Users\Alternate\Scala\WebServer\target\scala-2.12\simplewebserver-main_2.12-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	hello.html
+[debug] 	  C:\Users\Alternate\Scala\WebServer\target\scala-2.12\classes\hello.html
+[debug] 	goodbye.html
+[debug] 	  C:\Users\Alternate\Scala\WebServer\target\scala-2.12\classes\goodbye.html
+[debug] 	index.html
+[debug] 	  C:\Users\Alternate\Scala\WebServer\target\scala-2.12\classes\index.html
+[debug] 	error.html
+[debug] 	  C:\Users\Alternate\Scala\WebServer\target\scala-2.12\classes\error.html
+[debug] 	SimpleWebServer.class
+[debug] 	  C:\Users\Alternate\Scala\WebServer\target\scala-2.12\classes\SimpleWebServer.class
+[debug] 	SimpleWebServer$.class
+[debug] 	  C:\Users\Alternate\Scala\WebServer\target\scala-2.12\classes\SimpleWebServer$.class
+[info] Done packaging.

@@ -1,0 +1,5 @@
+[debug] Copy resource mappings: 
+[debug] 	(C:\Users\Alternate\Scala\WebServer\src\main\resources\error.html,C:\Users\Alternate\Scala\WebServer\target\scala-2.12\classes\error.html)
+[debug] 	(C:\Users\Alternate\Scala\WebServer\src\main\resources\goodbye.html,C:\Users\Alternate\Scala\WebServer\target\scala-2.12\classes\goodbye.html)
+[debug] 	(C:\Users\Alternate\Scala\WebServer\src\main\resources\hello.html,C:\Users\Alternate\Scala\WebServer\target\scala-2.12\classes\hello.html)
+[debug] 	(C:\Users\Alternate\Scala\WebServer\src\main\resources\index.html,C:\Users\Alternate\Scala\WebServer\target\scala-2.12\classes\index.html)

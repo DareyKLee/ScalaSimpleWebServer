@@ -1,0 +1,20 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mServerTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mparseInput with hello or hello.html[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be hello.html[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mparseInput with /[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be index.html[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32moutputOkHeader[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be a 200 OK http header[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32moutputHTML[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be the contents of goodbye.html file[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32moutput404Error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be a 404 NOT FOUND HTTP HEADER[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mgetResource[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should flush() for a existing resource and NOT encounter a NullPointerException[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mgetResource[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should throw NullPointerException *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Expected exception java.lang.NullPointerException to be thrown, but no exception was thrown (ServerTest.scala:74)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mInputStream of existing resource name[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be a 200 OK http header and resource contents in OutputStream[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32moutput505Error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should send 500 http internal error[0m[0m

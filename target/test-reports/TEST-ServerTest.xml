@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="Lenovo-PC" name="ServerTest" tests="9" errors="0" failures="1" skipped="0" time="2.06" timestamp="2019-03-05T13:18:20">
+                     <properties>
+      <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="idea.runid" value="2018.2"/><property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/><property name="java.vm.version" value="25.201-b09"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=";"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="user.script" value=""/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value=""/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="C:\Users\Alternate\Scala\WebServer"/><property name="java.runtime.version" value="1.8.0_201-b09"/><property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/><property name="idea.managed" value="true"/><property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="C:\Users\ALTERN~1\AppData\Local\Temp\"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="user.variant" value=""/><property name="os.name" value="Windows 10"/><property name="sun.jnu.encoding" value="Cp1252"/><property name="jnidispatch.path" value="C:\Users\ALTERN~1\AppData\Local\Temp\jna-595943514\jna4787775004335006184.dll"/><property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\erl9.2\bin;C:\Program Files (x86)\Elixir\bin;C:\WINDOWS\system32\config\systemprofile\.mix\escripts;C:\ProgramData\chocolatey\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Program Files\Cloud Foundry;C:\Program Files (x86)\sbt\bin;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Ruby22-x64\bin;C:\Users\Alternate\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Alternate\AppData\Local\Programs\Python\Python36-32\;C:\tools\neovim\Neovim\bin;;C:\Users\Alternate\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker Toolbox;C:\Users\Alternate\AppData\Roaming\npm;."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.0"/><property name="user.home" value="C:\Users\Alternate"/><property name="user.timezone" value="America/Denver"/><property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="C:\Users\Alternate\.IdeaIC2018.2\config\plugins\Scala\launcher\sbt-launch.jar"/><property name="user.name" value="Alternate"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="C:\Users\Alternate\.IdeaIC2018.2\config\plugins\Scala\launcher\sbt-launch.jar idea-shell"/><property name="java.home" value="C:\Program Files\Java\jdk1.8.0_201\jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.windows.WToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_201"/><property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/><property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="sun.stderr.encoding" value="cp437"/><property name="file.separator" value="\"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.stdout.encoding" value="cp437"/><property name="sun.desktop" value="windows"/><property name="sun.cpu.isalist" value="amd64"/>
+    </properties>
+                     <testcase classname="ServerTest" name="html" time="0.038">
+                                                 
+                                               </testcase><testcase classname="ServerTest" name="html" time="0.0">
+                                                 
+                                               </testcase><testcase classname="ServerTest" name="outputOkHeader should be a 200 OK http header" time="1.254">
+                                                 
+                                               </testcase><testcase classname="ServerTest" name="html file" time="0.017">
+                                                 
+                                               </testcase><testcase classname="ServerTest" name="output404Error should be a 404 NOT FOUND HTTP HEADER" time="0.0">
+                                                 
+                                               </testcase><testcase classname="ServerTest" name="getResource should flush() for a existing resource and NOT encounter a NullPointerException" time="0.471">
+                                                 
+                                               </testcase><testcase classname="ServerTest" name="getResource should throw NullPointerException" time="0.052">
+                                                 <failure message="Expected exception java.lang.NullPointerException to be thrown, but no exception was thrown" type="org.scalatest.exceptions.TestFailedException">org.scalatest.exceptions.TestFailedException: Expected exception java.lang.NullPointerException to be thrown, but no exception was thrown
+	at org.scalatest.Assertions.newAssertionFailedException(Assertions.scala:528)
+	at org.scalatest.Assertions.newAssertionFailedException$(Assertions.scala:527)
+	at org.scalatest.FlatSpec.newAssertionFailedException(FlatSpec.scala:1685)
+	at org.scalatest.Assertions.assertThrows(Assertions.scala:881)
+	at org.scalatest.Assertions.assertThrows$(Assertions.scala:860)
+	at org.scalatest.FlatSpec.assertThrows(FlatSpec.scala:1685)
+	at ServerTest.$anonfun$new$8(ServerTest.scala:74)
+	at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+	at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)
+	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+	at org.scalatest.Transformer.apply(Transformer.scala:22)
+	at org.scalatest.Transformer.apply(Transformer.scala:20)
+	at org.scalatest.FlatSpecLike$$anon$1.apply(FlatSpecLike.scala:1682)
+	at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)
+	at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)
+	at org.scalatest.FlatSpec.withFixture(FlatSpec.scala:1685)
+	at org.scalatest.FlatSpecLike.invokeWithFixture$1(FlatSpecLike.scala:1680)
+	at org.scalatest.FlatSpecLike.$anonfun$runTest$1(FlatSpecLike.scala:1692)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:289)
+	at org.scalatest.FlatSpecLike.runTest(FlatSpecLike.scala:1692)
+	at org.scalatest.FlatSpecLike.runTest$(FlatSpecLike.scala:1674)
+	at org.scalatest.FlatSpec.runTest(FlatSpec.scala:1685)
+	at org.scalatest.FlatSpecLike.$anonfun$runTests$1(FlatSpecLike.scala:1750)
+	at org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:396)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:384)
+	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:373)
+	at org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:410)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:384)
+	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:379)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:461)
+	at org.scalatest.FlatSpecLike.runTests(FlatSpecLike.scala:1750)
+	at org.scalatest.FlatSpecLike.runTests$(FlatSpecLike.scala:1749)
+	at org.scalatest.FlatSpec.runTests(FlatSpec.scala:1685)
+	at org.scalatest.Suite.run(Suite.scala:1147)
+	at org.scalatest.Suite.run$(Suite.scala:1129)
+	at org.scalatest.FlatSpec.org$scalatest$FlatSpecLike$$super$run(FlatSpec.scala:1685)
+	at org.scalatest.FlatSpecLike.$anonfun$run$1(FlatSpecLike.scala:1795)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:521)
+	at org.scalatest.FlatSpecLike.run(FlatSpecLike.scala:1795)
+	at org.scalatest.FlatSpecLike.run$(FlatSpecLike.scala:1793)
+	at org.scalatest.FlatSpec.run(FlatSpec.scala:1685)
+	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:314)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:507)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:113)
+	at sbt.TestRunner.run(TestFramework.scala:124)
+	at sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:282)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:246)
+	at sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:282)
+	at sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:282)
+	at sbt.TestFunction.apply(TestFramework.scala:294)
+	at sbt.Tests$.$anonfun$toTask$1(Tests.scala:309)
+	at sbt.std.Transform$$anon$3.$anonfun$apply$2(System.scala:46)
+	at sbt.std.Transform$$anon$4.work(System.scala:67)
+	at sbt.Execute.$anonfun$submit$2(Execute.scala:269)
+	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)
+	at sbt.Execute.work(Execute.scala:278)
+	at sbt.Execute.$anonfun$submit$1(Execute.scala:269)
+	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+                                               </testcase><testcase classname="ServerTest" name="InputStream of existing resource name should be a 200 OK http header and resource contents in OutputStream" time="0.228">
+                                                 
+                                               </testcase><testcase classname="ServerTest" name="output505Error should send 500 http internal error" time="0.0">
+                                                 
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>

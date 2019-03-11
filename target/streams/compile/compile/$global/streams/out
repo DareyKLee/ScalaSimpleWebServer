@@ -1,0 +1,6 @@
+[error] C:\Users\Alternate\ScalaProjects\SimpleWebServer\WebServer\src\main\scala\SimpleWebServer\Main.scala:42:12: type mismatch;
+[error]  found   : Unit
+[error]  required: String
+[error]     println(resourceName)
+[error]            ^
+[error] one error found
